@@ -27,11 +27,11 @@ namespace Stripboeken_DAL
         [Required]
         public bool Favoriet { get; set; }
 
-        public byte Waardering { get; set; }
+        public byte? Waardering { get; set; }
         public DateTime Uitgiftedatum { get; set; }
 
         [Required]
-        public bool EersteDruk { get; set; }
+        public bool? EersteDruk { get; set; }
 
         [Required]
         public string Kaft { get; set; }
@@ -51,16 +51,16 @@ namespace Stripboeken_DAL
         [Required]
         public string Taal { get; set; }
 
-        public byte Conditie { get; set; }
+        public byte? Conditie { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal Inbedrag { get; set; }
+        public decimal? Inbedrag { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal Waarde { get; set; }
+        public decimal? Waarde { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal Uitbedrag { get; set; }
+        public decimal? Uitbedrag { get; set; }
 
         [Required]
         public DateTime LaatsteUpdate { get; set; }
@@ -71,8 +71,8 @@ namespace Stripboeken_DAL
         [Required]
         public int UitgeverID { get; set; }
 
-        public int EventIDIn { get; set; }
-        public int EventIDUit { get; set; }
+        public int? EventIDIn { get; set; }
+        public int? EventIDUit { get; set; }
 
         public Reeksen Reeks { get; set; }
     }
