@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripboeken_WPF", "Stripboeken_WPF\Stripboeken_WPF.csproj", "{CF4A1217-9E5D-4F34-B499-C16D570E5768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripboeken_DAL", "Stripboeken_DAL\Stripboeken_DAL.csproj", "{28080D6C-46FD-48DE-8487-6EAF0380DE96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4A1217-9E5D-4F34-B499-C16D570E5768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4A1217-9E5D-4F34-B499-C16D570E5768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4A1217-9E5D-4F34-B499-C16D570E5768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4A1217-9E5D-4F34-B499-C16D570E5768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28080D6C-46FD-48DE-8487-6EAF0380DE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28080D6C-46FD-48DE-8487-6EAF0380DE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28080D6C-46FD-48DE-8487-6EAF0380DE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28080D6C-46FD-48DE-8487-6EAF0380DE96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB05790-EB7E-426D-AE63-651CF07F7561}
+	EndGlobalSection
+EndGlobal
